@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(36, 36, 36);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.utilizador{
+    padding: 20px 20px;
+    background-color: rgb(3, 238, 255);
+    color: black;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 30px;
+}
+
+.utilizador:hover{
+    box-shadow: 0px 4px 8px rgb(12, 125, 231); 
+}
+
+.admin{
+    padding: 20px 20px;
+    background-color: rgb(3, 238, 255);
+    color: black;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.admin:hover{
+    box-shadow: 0px 4px 8px rgb(12, 125, 231); 
+}
+
