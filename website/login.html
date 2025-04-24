@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1>Login</h1>
-    <form action="php/processalogin.php" method="POST">
-        <label for="username_or_email">Nome ou Email:</label><br>
-        <input type="text" id="username_or_email" name="username_or_email" required><br><br>
+    <h1 class="dadosLogin">Login</h1>
+    <div class="dadosPessoais">
+        <form action="php/processalogin.php" method="POST">
+            <label for="username_or_email">Nome ou Email:</label><br>
+            <input type="text" id="username_or_email" name="username_or_email" required><br><br>
 
-        <label for="password">Senha:</label><br>
-        <input type="password" id="password" name="password" required><br><br>
+            <label for="password">Senha:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
 
-        <input type="submit" value="Login">
-    </form>
-    
+            <input type="submit" value="Login">
+        </form>
+    </div>
 </body>
 </html>
+

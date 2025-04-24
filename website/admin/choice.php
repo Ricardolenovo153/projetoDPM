@@ -11,9 +11,7 @@
     <?php
     session_start();
     if (isset($_SESSION['admin']) && $_SESSION['admin'] === 1) {
-        // Redireciona ou mostra área de admin
     } else {
-        // Redireciona ou mostra área de usuário normal
         header("Location:../index.php");
     }
 

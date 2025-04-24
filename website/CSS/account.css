@@ -75,9 +75,19 @@ input[type="submit"]:hover {
 
 .dadosPessoais {
     font-family: Arial, sans-serif;
-
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+
+.dadosLogin {
+    font-family: Arial, sans-serif;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+

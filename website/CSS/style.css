@@ -18,7 +18,7 @@
 }
 
 .link {
-    margin-right: 40px;
+    margin-right: 20px;
     text-decoration: none;
     list-style-type: none;
     color: hsl(0, 0%, 100%);
@@ -39,12 +39,37 @@
     box-shadow: 0px 4px 8px rgb(79, 2, 151); 
 }
 
+@media (max-width: 1600px) {
+  .links {
+    display: flex;
+    text-decoration: none;
+    margin-left: 45vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .links {
+    display: flex;
+    text-decoration: none;
+    margin-left: 37vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .links {
+    display: flex;
+    text-decoration: none;
+    margin-left: 30vw;
+  }
+}
+
+
 
 .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1320px; /* 4 x 320 + espaçamentos */
+    max-width: 1320px; 
     margin: 0 auto;
     gap: 20px;
   }

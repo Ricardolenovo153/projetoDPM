@@ -24,7 +24,6 @@
             <p>
             <?php
                 if (isset($_SESSION['user_id'])) {
-                    // Se $_SESSION['user_name'] for nulo, usar uma string vazia ou outro valor padrão
                     $user_name = $_SESSION['user_name'] ?? '';
                     echo '<a href="welcome.php" class="link">' . htmlspecialchars($user_name, ENT_QUOTES, 'UTF-8') . ' <i class="fa-solid fa-user"></i></a>';
                 } else {
